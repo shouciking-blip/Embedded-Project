@@ -1,0 +1,13 @@
+motorcontrolsystem\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+motorcontrolsystem\heap_4.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\stdlib.h
+motorcontrolsystem\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+motorcontrolsystem\heap_4.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\stddef.h
+motorcontrolsystem\heap_4.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\stdint.h
+motorcontrolsystem\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+motorcontrolsystem\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+motorcontrolsystem\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+motorcontrolsystem\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+motorcontrolsystem\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+motorcontrolsystem\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+motorcontrolsystem\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+motorcontrolsystem\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

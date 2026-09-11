@@ -1,0 +1,12 @@
+motorcontrolsystem\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
+motorcontrolsystem\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+motorcontrolsystem\port.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\stddef.h
+motorcontrolsystem\port.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\stdint.h
+motorcontrolsystem\port.o: ../Core/Inc/FreeRTOSConfig.h
+motorcontrolsystem\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+motorcontrolsystem\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+motorcontrolsystem\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+motorcontrolsystem\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+motorcontrolsystem\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+motorcontrolsystem\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+motorcontrolsystem\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

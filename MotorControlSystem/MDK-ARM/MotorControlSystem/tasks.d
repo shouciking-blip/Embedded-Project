@@ -1,0 +1,16 @@
+motorcontrolsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+motorcontrolsystem\tasks.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\stdlib.h
+motorcontrolsystem\tasks.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\string.h
+motorcontrolsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+motorcontrolsystem\tasks.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\stddef.h
+motorcontrolsystem\tasks.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\stdint.h
+motorcontrolsystem\tasks.o: ../Core/Inc/FreeRTOSConfig.h
+motorcontrolsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+motorcontrolsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+motorcontrolsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+motorcontrolsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+motorcontrolsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+motorcontrolsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+motorcontrolsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+motorcontrolsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+motorcontrolsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h
