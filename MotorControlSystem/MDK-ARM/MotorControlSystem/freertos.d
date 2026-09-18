@@ -48,6 +48,8 @@ motorcontrolsystem\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal
 motorcontrolsystem\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 motorcontrolsystem\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 motorcontrolsystem\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+motorcontrolsystem\freertos.o: ../Core/Inc/adc.h
+motorcontrolsystem\freertos.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\math.h
 motorcontrolsystem\freertos.o: ../Core/Inc/usart.h
 motorcontrolsystem\freertos.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\stdio.h
 motorcontrolsystem\freertos.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\string.h
