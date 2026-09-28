@@ -39,18 +39,7 @@ extern CAN_HandleTypeDef hcan1;
 /* USER CODE END Private defines */
 
 void MX_CAN1_Init(void);
-uint8_t CAN1_RX_QueuePush(
-    CAN_RxHeaderTypeDef *header,
-    uint8_t *data
-);
 
-uint8_t CAN1_RX_QueuePop(
-    CAN_RxHeaderTypeDef *header,
-    uint8_t *data
-);
-
-extern volatile uint32_t can_rx_count;
-extern volatile uint32_t can_rx_overflow_count;
 /* USER CODE BEGIN Prototypes */
 
 /* USER CODE END Prototypes */

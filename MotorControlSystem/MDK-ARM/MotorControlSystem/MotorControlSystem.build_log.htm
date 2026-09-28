@@ -27,7 +27,16 @@ Project File Date:  09/28/2026
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\MDK-CORE\ARM\ARMCC\Bin'
 Build target 'MotorControlSystem'
-"MotorControlSystem\MotorControlSystem.axf" - 0 Error(s), 0 Warning(s).
+compiling fault_manager.c...
+fault_manager.c(164): warning:  #550-D: variable "voltage"  was set but never used
+      float voltage;
+fault_manager.c(40): warning:  #550-D: variable "fault_start_tick"  was set but never used
+  static uint32_t fault_start_tick = 0;
+fault_manager.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=42952 RO-data=2384 RW-data=356 ZI-data=23028  
+FromELF: creating hex file...
+"MotorControlSystem\MotorControlSystem.axf" - 0 Error(s), 2 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -50,7 +59,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE@6.2.0
       Include file:  CMSIS/Core/Include/tz_context.h
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

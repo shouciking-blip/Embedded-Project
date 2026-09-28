@@ -48,6 +48,7 @@ motorcontrolsystem\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal
 motorcontrolsystem\freertos.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 motorcontrolsystem\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 motorcontrolsystem\freertos.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.h
+motorcontrolsystem\freertos.o: ../Core/Inc/usart.h
 motorcontrolsystem\freertos.o: ../Core/Inc/flash_config.h
 motorcontrolsystem\freertos.o: ../Core/Inc/motor_status.h
 motorcontrolsystem\freertos.o: ../Core/Inc/motor_control.h
@@ -59,6 +60,7 @@ motorcontrolsystem\freertos.o: ../Core/Inc/display_manager.h
 motorcontrolsystem\freertos.o: ../Core/Inc/encoder_manager.h
 motorcontrolsystem\freertos.o: ../Core/Inc/uart_manager.h
 motorcontrolsystem\freertos.o: ../Core/Inc/freertos_monitor.h
-motorcontrolsystem\freertos.o: ../Core/Inc/usart.h
+motorcontrolsystem\freertos.o: ../Core/Inc/key_manager.h
+motorcontrolsystem\freertos.o: ../Core/Inc/buzzer_manager.h
 motorcontrolsystem\freertos.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\stdio.h
 motorcontrolsystem\freertos.o: D:\MDK-CORE\ARM\ARMCC\Bin\..\include\string.h
