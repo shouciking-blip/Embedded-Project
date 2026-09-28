@@ -44,7 +44,8 @@
  *----------------------------------------------------------*/
 
 /* USER CODE BEGIN Includes */
-/* Section where include file can be added */
+void DWT_Timer_Init(void);
+uint32_t DWT_Timer_GetCounter(void);
 /* USER CODE END Includes */
 
 /* Ensure definitions are only used by the compiler, and not by the assembler. */
@@ -71,7 +72,16 @@
 #define configTOTAL_HEAP_SIZE                    ((size_t)15360)
 #define configMAX_TASK_NAME_LEN                  ( 16 )
 #define configUSE_TRACE_FACILITY                 1
+#define configGENERATE_RUN_TIME_STATS            1
+
+#define portCONFIGURE_TIMER_FOR_RUN_TIME_STATS() \
+    DWT_Timer_Init()
+
+#define portGET_RUN_TIME_COUNTER_VALUE() \
+    DWT_Timer_GetCounter()
+
 #define configUSE_16_BIT_TICKS                   0
+
 #define configUSE_MUTEXES                        1
 #define configQUEUE_REGISTRY_SIZE                8
 #define configUSE_RECURSIVE_MUTEXES              1

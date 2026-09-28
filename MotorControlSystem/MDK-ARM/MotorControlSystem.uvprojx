@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\Core</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -453,6 +453,86 @@
               <FileName>stm32f4xx_hal_timebase_tim.c</FileName>
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f4xx_hal_timebase_tim.c</FilePath>
+            </File>
+            <File>
+              <FileName>flash_config.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\flash_config.c</FilePath>
+            </File>
+            <File>
+              <FileName>motor_status.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\motor_status.c</FilePath>
+            </File>
+            <File>
+              <FileName>motor_control.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\motor_control.c</FilePath>
+            </File>
+            <File>
+              <FileName>pi_controller.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\pi_controller.c</FilePath>
+            </File>
+            <File>
+              <FileName>fault_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\fault_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>sensor_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\sensor_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>can_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\can_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>ssd1306.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\ssd1306.c</FilePath>
+            </File>
+            <File>
+              <FileName>display_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\display_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>encoder_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\encoder_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\uart_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>freertos_monitor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\freertos_monitor.c</FilePath>
+            </File>
+            <File>
+              <FileName>dwt_timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\dwt_timer.c</FilePath>
+            </File>
+            <File>
+              <FileName>uart_protocol.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\uart_protocol.c</FilePath>
+            </File>
+            <File>
+              <FileName>key_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\key_manager.c</FilePath>
+            </File>
+            <File>
+              <FileName>buzzer_manager.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\buzzer_manager.c</FilePath>
             </File>
           </Files>
         </Group>
